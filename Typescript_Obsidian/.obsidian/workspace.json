@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello world !.md",
+                "file": "Level1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hello world !"
+              "title": "Level1"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello world !.md",
+                "file": "variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Hello world !"
+              "title": "Rétrolien pour variables"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hello world !.md",
+                "file": "variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Hello world !"
+              "title": "Liens sortants de variables"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello world !.md",
+                "file": "variables.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Hello world !"
+              "title": "Plan de variables"
             }
           }
         ]
@@ -185,9 +185,16 @@
   },
   "active": "79035010b077e0f6",
   "lastOpenFiles": [
-    "helloWorld.js",
-    "helloWorld.ts",
+    "training.ts",
+    "Ressources.md",
+    "Sujet level 1.md",
+    "Level1.md",
     "Hello world !.md",
-    "Typescript.md"
+    "Typescript.md",
+    "Function.md",
+    "Variables.md",
+    "training.js",
+    "helloWorld.js",
+    "helloWorld.ts"
   ]
 }
