@@ -69,3 +69,152 @@ fizz
 buzz
 $>
 ```
+
+
+```
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that displays a string on the standard output.
+
+The pointer passed to the function contains the address of the string's first
+character.
+
+Your function must be declared as follows:
+
+void	ft_putstr(char *str);
+```
+
+
+```
+Assignment name  : ft_strcpy
+Expected files   : ft_strcpy.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Reproduce the behavior of the function strcpy (man strcpy).
+
+Your function must be declared as follows:
+
+char    *ft_strcpy(char *s1, char *s2);
+```
+
+```
+Assignment name  : repeat_alpha
+Expected files   : repeat_alpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program called repeat_alpha that takes a string and display it
+repeating each alphabetical character as many times as its alphabetical index,
+followed by a newline.
+
+'a' becomes 'a', 'b' becomes 'bb', 'e' becomes 'eeeee', etc...
+
+Case remains unchanged.
+
+If the number of arguments is not 1, just display a newline.
+
+Examples:
+
+$>./repeat_alpha "abc"
+abbccc
+$>./repeat_alpha "Alex." | cat -e
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+$>./repeat_alpha 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$
+$>./repeat_alpha | cat -e
+$
+$>
+$>./repeat_alpha "" | cat -e
+$
+$>
+```
+
+```
+Assignment name  : rev_print
+Expected files   : rev_print.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string, and displays the string in reverse
+followed by a newline.
+
+If the number of parameters is not 1, the program displays a newline.
+
+Examples:
+
+$> ./rev_print "zaz" | cat -e
+zaz$
+$> ./rev_print "dub0 a POIL" | cat -e
+LIOP a 0bud$
+$> ./rev_print | cat -e
+$
+```
+
+```
+Assignment name  : rot_13
+Expected files   : rot_13.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays it, replacing each of its
+letters by the letter 13 spaces ahead in alphabetical order.
+
+'z' becomes 'm' and 'Z' becomes 'M'. Case remains unaffected.
+
+The output will be followed by a newline.
+
+If the number of arguments is not 1, the program displays a newline.
+
+Example:
+
+$>./rot_13 "abc"
+nop
+$>./rot_13 "My horse is Amazing." | cat -e
+Zl ubefr vf Nznmvat.$
+$>./rot_13 "AkjhZ zLKIJz , 23y " | cat -e
+NxwuM mYXVWm , 23l $
+$>./rot_13 | cat -e
+$
+$>
+$>./rot_13 "" | cat -e
+$
+$>
+```
+
+```
+Assignment name  : rotone
+Expected files   : rotone.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays it, replacing each of its
+letters by the next one in alphabetical order.
+
+'z' becomes 'a' and 'Z' becomes 'A'. Case remains unaffected.
+
+The output will be followed by a \n.
+
+If the number of arguments is not 1, the program displays \n.
+
+Example:
+
+$>./rotone "abc"
+bcd
+$>./rotone "Les stagiaires du staff ne sentent pas toujours tres bon." | cat -e
+Mft tubhjbjsft ev tubgg of tfoufou qbt upvkpvst usft cpo.$
+$>./rotone "AkjhZ zLKIJz , 23y " | cat -e
+BlkiA aMLJKa , 23z $
+$>./rotone | cat -e
+$
+$>
+$>./rotone "" | cat -e
+$
+$>
+```
+
+
+
